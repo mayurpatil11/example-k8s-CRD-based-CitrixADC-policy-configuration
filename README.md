@@ -18,7 +18,7 @@ e.g. ``https://hotdrink.beverages.com``
 3. Deploy the Citrix CRD 
 Rewrite and Responder CRD in the Kubernetes cluster enables you to configure extensive rewrite and responder policies in Tier 1 ADC.
 ```
-kubectl create -f /root/yamls/crd_rewrite_responder.yaml
+kubectl create -f /root/yamls/CRD_rewrite-responder-policies-deployment.yaml
 ```
 
 4. Configure Responder policy on Tier 1 ADC (VPX) to block the user access to coffee beverage microservice
